@@ -1,0 +1,44 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+h1 {
+    margin: 5px;
+}
+
+input {
+    width: 55px;
+    height: 55px;
+    font-size: 30px;
+    text-align: center;
+    border: 0.8px solid #bdbdbd;
+}
+
+#answer {
+    display: flex;
+    flex-direction: column;
+}
+
+.divList {
+    display: flex;
+    flex-direction: row;
+}
+
+.divNode {
+    width: 58px;
+    height: 58px;
+    border: 0.8px solid #bdbdbd;
+    font-size: 30px;
+    text-align: center;
+    margin: 2.57px;
+    line-height: 58px;
+}
+
