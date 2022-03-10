@@ -10,6 +10,9 @@ const num4 = document.querySelector("#num4");
 
 const randomList = [];
 
+const BALL = "#FCBB42";
+const STRIKE = "#8CC152";
+
 function focus_next(current, next) {
     if (current.value.length==1) {
         next.focus();
@@ -61,12 +64,10 @@ function handleBtn(event) {
         divNode.classList = 'divNode';
         divNode.innerText = myList[i];
         if(randomList.includes(myList[i])) {
-            // divNode.style.backgroundColor = "#dba617";
-            divNode.style.backgroundColor = "#FCBB42";
+            divNode.style.backgroundColor = BALL;
         }
         if(myList[i] == randomList[i]) {
-            // divNode.style.backgroundColor = "#00a32a";
-            divNode.style.backgroundColor = "#8CC152";
+            divNode.style.backgroundColor = STRIKE;
         }
         divList.appendChild(divNode);
     }
