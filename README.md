@@ -1,2 +1,2 @@
-# number-baseball-game
- number baseball game by JS
+# numberle
+ wordle number version game with Vanilla JS
