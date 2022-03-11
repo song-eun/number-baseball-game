@@ -46,6 +46,25 @@ function sameNum(n) {
     return false;
 }
 
+function closePopup() {
+	const popup = document.querySelector('#popup');
+  popup.classList.add('hide');
+  location.reload();
+
+}
+
+function showPopup(hasFilter) {
+	const popup = document.querySelector('#popup');
+  
+  if (hasFilter) {
+  	popup.classList.add('has-filter');
+  } else {
+  	popup.classList.remove('has-filter');
+  }
+  
+  popup.classList.remove('hide');
+}
+
 function makeMyList() {
     let myList = [];
     myList.push(parseInt(num1.value));
@@ -80,10 +99,11 @@ function handleBtn(event) {
     answerPart.prepend(divList);  
 
     if(cnt === 4) {
-        let divTab = document.createElement("div");
-        divTab.innerText = "success!";
-        document.body.append(divTab);
+        // let divTab = document.createElement("div");
+        // divTab.innerText = "success!";
+        // document.body.append(divTab);
         console.log("success!");
+        showPopup(false);
     }
 
     num1.value = "";
