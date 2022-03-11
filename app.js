@@ -25,7 +25,7 @@ function makeRandomList() {
     let n = 0;
     
     while(cnt < 4){
-        if(cnt == 0) {
+        if(cnt === 0) {
             n = Math.floor(Math.random() * 9) + 1;
         } else {
             n = Math.floor(Math.random() * 10);
@@ -71,7 +71,7 @@ function handleBtn(event) {
         if(randomList.includes(myList[i])) {
             divNode.style.backgroundColor = BALL;
         }
-        if(myList[i] == randomList[i]) {
+        if(myList[i] === randomList[i]) {
             divNode.style.backgroundColor = STRIKE;
             cnt++;
         }
@@ -79,7 +79,7 @@ function handleBtn(event) {
     }
     answerPart.prepend(divList);  
 
-    if(cnt==4) {
+    if(cnt === 4) {
         let divTab = document.createElement("div");
         divTab.innerText = "success!";
         document.body.append(divTab);
