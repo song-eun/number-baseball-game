@@ -46,18 +46,23 @@ function sameNum(n) {
     return false;
 }
 
-function handleBtn(event) {
-    event.preventDefault();
-
-    const myList = [];
-
-    let divList = document.createElement("div");
-    divList.classList = 'divList';
-
+function makeMyList() {
+    let myList = [];
     myList.push(parseInt(num1.value));
     myList.push(parseInt(num2.value));
     myList.push(parseInt(num3.value));
     myList.push(parseInt(num4.value));
+    return myList;
+}
+
+function handleBtn(event) {
+    event.preventDefault();
+
+    let cnt = 0;
+    const myList = makeMyList();
+
+    let divList = document.createElement("div");
+    divList.classList = 'divList';
 
     for(let i = 0; i < 4; i++) {
         let divNode = document.createElement("div");
@@ -68,10 +73,18 @@ function handleBtn(event) {
         }
         if(myList[i] == randomList[i]) {
             divNode.style.backgroundColor = STRIKE;
+            cnt++;
         }
         divList.appendChild(divNode);
     }
     answerPart.prepend(divList);  
+
+    if(cnt==4) {
+        let divTab = document.createElement("div");
+        divTab.innerText = "success!";
+        document.body.append(divTab);
+        console.log("success!");
+    }
 
     num1.value = "";
     num2.value = "";
