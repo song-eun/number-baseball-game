@@ -48,19 +48,15 @@ function sameNum(n) {
 
 function closePopup() {
 	const popup = document.querySelector('#popup');
-  popup.classList.add('hide');
-  location.reload();
-
+    popup.classList.add('hide');
+    location.reload();
 }
 
-function showPopup(hasFilter) {
+function showPopup() {
 	const popup = document.querySelector('#popup');
-  
-  if (hasFilter) {
-  	popup.classList.add('has-filter');
-  } else {
+
   	popup.classList.remove('has-filter');
-  }
+
   
   popup.classList.remove('hide');
 }
@@ -99,11 +95,8 @@ function handleBtn(event) {
     answerPart.prepend(divList);  
 
     if(cnt === 4) {
-        // let divTab = document.createElement("div");
-        // divTab.innerText = "success!";
-        // document.body.append(divTab);
         console.log("success!");
-        showPopup(false);
+        showPopup();
     }
 
     num1.value = "";
