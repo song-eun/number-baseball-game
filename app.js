@@ -54,11 +54,8 @@ function closePopup() {
 
 function showPopup() {
 	const popup = document.querySelector('#popup');
-
   	popup.classList.remove('has-filter');
-
-  
-  popup.classList.remove('hide');
+    popup.classList.remove('hide');
 }
 
 function makeMyList() {
