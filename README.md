@@ -17,4 +17,4 @@ yellow - The number you write is included in the answer, but it's not the same p
 <br>
 You can check in this site
 <br>
-Your site is live at https://song-eun.github.io/number-baseball-game/
+https://song-eun.github.io/number-baseball-game/
