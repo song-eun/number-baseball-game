@@ -8,3 +8,9 @@
 green - The number you write is included in the answer, and it's the same position
 <br>
 yellow - The number you write is included in the answer, but it's not the same position
+
+<br>
+<br>
+<br>
+You can test in this site
+https://song-eun.github.io/numberle/
