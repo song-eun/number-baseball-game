@@ -5,13 +5,16 @@
 <br>
 ![image](https://user-images.githubusercontent.com/80393294/158287879-d613b9d5-52eb-4acb-b9f5-af4b399297cb.png)
 <br>
+초록 - 정답에 숫자가 포함되었으며, 정답과 같은 자리
+<br>
 green - The number you write is included in the answer, and it's the same position
+<br>
+노랑 - 정답에 숫자가 포함되었지만, 정답과 다른 자리
 <br>
 yellow - The number you write is included in the answer, but it's not the same position
 
 <br>
 <br>
-<br>
 You can check in this site
 <br>
-https://song-eun.github.io/numberle/
+Your site is live at https://song-eun.github.io/number-baseball-game/
