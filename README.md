@@ -9,7 +9,6 @@ You can check in this site
 https://song-eun.github.io/number-baseball-game/
 
 <br>
-<br>
 ![image](https://user-images.githubusercontent.com/80393294/158287879-d613b9d5-52eb-4acb-b9f5-af4b399297cb.png)
 <br>
 초록 - 정답에 숫자가 포함되었으며, 정답과 같은 자리
