@@ -2,6 +2,13 @@
   with Vanilla JS
 <br>
  바닐라JS를 사용하여 만든 숫자 야구 게임
+
+<br>
+You can check in this site
+<br>
+https://song-eun.github.io/number-baseball-game/
+
+<br>
 <br>
 ![image](https://user-images.githubusercontent.com/80393294/158287879-d613b9d5-52eb-4acb-b9f5-af4b399297cb.png)
 <br>
@@ -15,6 +22,8 @@ yellow - The number you write is included in the answer, but it's not the same p
 
 <br>
 <br>
-You can check in this site
+업데이트 할 것
 <br>
-https://song-eun.github.io/number-baseball-game/
+[ ] 최고 기록
+[ ] Backspace 누르면 숫자 지움
+[ ] 성공 화면 꾸미기
