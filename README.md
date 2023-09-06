@@ -12,6 +12,6 @@ yellow - The number you write is included in the answer, but it's not the same p
 <br>
 <br>
 <br>
-You can test in this site
+You can check in this site
 <br>
 https://song-eun.github.io/numberle/
